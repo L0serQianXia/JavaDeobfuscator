@@ -4,4 +4,13 @@
 
 目前仅支持v1.0版本
 
-This deobfuscator only able to deobfuscate the file that obfuscated by QianXia's JavaObfuscator!
+This deobfuscator **only** able to deobfuscate the file that obfuscated by QianXia's JavaObfuscator!
+
+## How to use
+将被反混淆的文件放在与JavaDeobfuscator.jar的同级目录  
+并将其命名为
+"in.jar"
+后执行
+```java -jar JavaDeobfuscator.jar```  
+不出意料会得到
+"out.jar"
